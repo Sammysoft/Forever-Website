@@ -1,0 +1,47 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Righteous&family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
+
+
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+
+.contain{
+    width: 90%;
+    margin: auto;
+    font-family: 'Lato', serif;
+}
+
+.side{
+    background-color:whitesmoke;
+    color: rgb(218, 103, 103);
+    padding: 0.5rem;
+    border-radius: 5px;
+    font-family: 'Tangerine', serif";
+}
+
+.wrapper{
+    font-family: 'Raleway', sans-serif;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+textarea{
+    font-family: cursive;
+    font-size: 1.5rem;
+}
+
+@media screen and (max-width: 500px){
+    .wrapper{
+        display: flex;
+        flex-direction: column;
+    }
+    .side{
+        margin-top: 12vh;
+    }
+}

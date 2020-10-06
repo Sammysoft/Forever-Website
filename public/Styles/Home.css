@@ -1,0 +1,80 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Righteous&family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
+
+
+
+
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.main{
+    background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url('/images/drug.png');
+    background-attachment: fixed;
+    background-repeat: none;
+    background-size: cover;
+    height: auto;
+}
+
+nav{
+    height: auto;
+    width: 100%;
+    background: rgb(218, 103, 103);
+    font-family: 'Tangerine', serif;
+    font-size: 1.5rem;
+    display: grid;
+    grid-template-columns: auto;
+    display: inline-block;
+    color: white;
+}
+.image{
+    margin: auto 20%;
+    float: right;
+}
+.main{
+    font-family: 'Tangerine';
+    font-size: 2rem;
+    font-weight: bold;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    text-shadow: 4px 4px 4px #aaa;
+    margin:auto;
+    color: white;
+}
+
+ul{
+    
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    float: right;
+}
+li, li a{
+    list-style: none;
+    margin: 0.4rem 4rem;
+    text-decoration: none;
+    text-decoration-line: none;
+    
+}
+li:hover,  li a:hover{
+    /* font-size:2rem; */
+    color: purple;
+    cursor: pointer;
+    text-decoration: none;
+    text-decoration-line: none;
+}
+
+
+
+@media scren and (max-width: 500px){
+    nav{
+        font-size:0.4rem;
+    }
+    .main{
+        font-size: 0.4rem;
+    }
+}
